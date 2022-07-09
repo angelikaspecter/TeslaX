@@ -270,8 +270,8 @@ body {
 .promo .play::before {
   content: "";
   position: absolute;
-  top: -25%;
-  left: -25%;
+  top: -23%;
+  left: -24%;
   width: 150px;
   height: 150px;
   background: url("../img/text.webp") no-repeat center/contain;
@@ -773,7 +773,11 @@ body {
 }
 
 .reviews .card .card-body {
-  height: 200px;
+  height: 100%;
+}
+
+.reviews .card .img img {
+  border-radius: 50%;
 }
 
 .reviews .carousel-control-prev {

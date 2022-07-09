@@ -709,6 +709,7 @@ button:not(:disabled) {
     margin-bottom: 1rem;
     margin-left: 15%;
     list-style: none;
+    bottom: -50px;
 }
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
